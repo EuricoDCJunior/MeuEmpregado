@@ -1,6 +1,6 @@
-package br.edu.facear.meuempregado.model;
+package br.edu.facear.model;
 
-public class controlePonto {
+public class ControlePonto {
 	
 	private int idEmpregado =0 ;
 	private int idEmpregador = 0;

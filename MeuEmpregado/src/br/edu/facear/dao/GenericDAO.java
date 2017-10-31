@@ -1,13 +1,13 @@
-package br.edu.facear.meuempregado.dao;
+package br.edu.facear.dao;
 
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import br.edu.facear.meuempregado.db.ConnectDB;
+import br.edu.facear.db.connectDB;
 
 public class GenericDAO {
-	private ConnectDB db = new ConnectDB();
+	private connectDB db = new connectDB();
 	protected Connection connect;
 
 	public void openConnection() throws ClassNotFoundException, 

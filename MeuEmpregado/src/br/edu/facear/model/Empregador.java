@@ -1,13 +1,13 @@
-package br.edu.facear.meuempregado.model;
+package br.edu.facear.model;
 
-public class empregador {
+public class Empregador {
 
 	private int Id =0;
 	private String razaoSocial = null;
 	private String cpf = null;
 	private String cnpj = null;
 	
-	public empregador(int id, String razaoSocial, String cpf, String cnpj) {
+	public Empregador(int id, String razaoSocial, String cpf, String cnpj) {
 		super();
 		Id = id;
 		this.razaoSocial = razaoSocial;

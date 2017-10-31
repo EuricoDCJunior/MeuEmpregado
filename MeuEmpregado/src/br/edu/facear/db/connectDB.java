@@ -1,11 +1,11 @@
-package br.edu.facear.meuempregado.db;
+package br.edu.facear.db;
 
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class ConnectDB {
+public class connectDB {
 	private Connection con;
 
 	private String driver;
@@ -17,7 +17,7 @@ public class ConnectDB {
 	 * Classe de conexão com Banco de Dados
 	 * 
 	 */
-	public ConnectDB(){
+	public connectDB(){
 		// Melhoria futura: colocar essas informações em arquivo *.properties
 		driver = "com.mysql.jdbc.Driver";
 		url = "jdbc:mysql://localhost:3306/MeuEmpregado";

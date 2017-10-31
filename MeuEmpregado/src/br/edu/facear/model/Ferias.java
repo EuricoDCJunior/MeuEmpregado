@@ -1,6 +1,6 @@
-package br.edu.facear.meuempregado.model;
+package br.edu.facear.model;
 
-public class ferias {
+public class Ferias {
 
 	private int idEMPREGADO =0;
 	private String Status = null;
