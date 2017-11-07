@@ -1,16 +1,17 @@
-package br.edu.facear.model;
+package com.facear.meuempregado.model;
 
-public class BeneficioPeriodo {
+public class Beneficio {
 	private Integer id;
 	private String descricao;
 	
 	
 	
 	
-	public BeneficioPeriodo(Integer id, String descricao) {
+	public Beneficio(Integer id, String descricao) {
 		this.id = id;
 		this.descricao = descricao;
 	}
+	
 	
 	public Integer getId() {
 		return id;
@@ -25,5 +26,4 @@ public class BeneficioPeriodo {
 		this.descricao = descricao;
 	}
 	
-
 }

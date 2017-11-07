@@ -1,4 +1,4 @@
-package br.edu.facear.model;
+package com.facear.meuempregado.model;
 
 import java.sql.Date;
 import java.util.ArrayList;

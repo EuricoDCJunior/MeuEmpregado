@@ -1,4 +1,4 @@
-package br.edu.facear.model;
+package com.facear.meuempregado.model;
 
 import java.text.DecimalFormat;
 import java.text.ParseException;

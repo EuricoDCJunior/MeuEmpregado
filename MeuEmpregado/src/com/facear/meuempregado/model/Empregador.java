@@ -1,4 +1,4 @@
-package br.edu.facear.model;
+package com.facear.meuempregado.model;
 
 public class Empregador {
 

@@ -1,9 +1,9 @@
-package br.edu.facear.dao;
+package com.facear.meuempregado.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.edu.facear.model.*;
+import com.facear.meuempregado.model.*;
 
 public class HoleriteDAO {
 	
