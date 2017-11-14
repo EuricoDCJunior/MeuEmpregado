@@ -1,15 +1,15 @@
 package com.facear.meuempregado.model;
 
 public class Holerite {
-	private int idHOLERITE = 0;
-	private String dateHolerite = null;
-	private double totalProventos = 0.00;
-	private double totalDescontos = 0.00;
-	private boolean Gerado = false;
+	private Integer idHolerite = 0;
+	private String dataHolerite = null;
+	private Long totalProventos ;
+	private Long totalDescontos ;
+	private Boolean gerado = false;
 	
 	private Empregado empregado;
 	private Empregador empregador;	
-	private Beneficio bene;
+	private Beneficio beneficio;
 	private Ferias ferias;
 	private Contrato contrato;
 	private ControlePonto ponto;
@@ -17,27 +17,27 @@ public class Holerite {
 	
 	
 	public int getIdHOLERITE() {
-		return idHOLERITE;
+		return idHolerite;
 	}
-	public void setIdHOLERITE(int idHOLERITE) {
-		this.idHOLERITE = idHOLERITE;
+	public void setIdHOLERITE(int idHolerite) {
+		this.idHolerite = idHolerite;
 	}
 	public String getDateHolerite() {
-		return dateHolerite;
+		return dataHolerite;
 	}
-	public void setDateHolerite(String dateHolerite) {
-		this.dateHolerite = dateHolerite;
+	public void setDateHolerite(String dataHolerite) {
+		this.dataHolerite = dataHolerite;
 	}
-	public double getTotalProventos() {
+	public Long getTotalProventos() {
 		return totalProventos;
 	}
-	public void setTotalProventos(double totalProventos) {
+	public void setTotalProventos(Long totalProventos) {
 		this.totalProventos = totalProventos;
 	}
-	public double getTotalDescontos() {
+	public Long getTotalDescontos() {
 		return totalDescontos;
 	}
-	public void setTotalDescontos(double totalDescontos) {
+	public void setTotalDescontos(Long totalDescontos) {
 		this.totalDescontos = totalDescontos;
 	}
 	public Empregado getEmpregado() {
@@ -53,10 +53,10 @@ public class Holerite {
 		this.empregador = empregador;
 	}
 	public Beneficio getBene() {
-		return bene;
+		return beneficio;
 	}
-	public void setBene(Beneficio bene) {
-		this.bene = bene;
+	public void setBene(Beneficio beneficio) {
+		this.beneficio = beneficio;
 	}
 	public Ferias getFerias() {
 		return ferias;
@@ -77,10 +77,10 @@ public class Holerite {
 		this.ponto = ponto;
 	}
 	public boolean isGerado() {
-		return Gerado;
+		return gerado;
 	}
 	public void setGerado(boolean gerado) {
-		Gerado = gerado;
+		gerado = gerado;
 	}
 	public ImpostoEmpregado getIMempregado() {
 		return IMempregado;
